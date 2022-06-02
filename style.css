@@ -18,17 +18,68 @@
 header{
     background-color: black;
     color: white;
-    padding: 60px;
     text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-h1{
+header h1{
+    font-variant: small-caps;
     font-size: 70px;
     font-family: var(--fonte1);
+    font-size: 7vw;
 }
 header p{
     font-size: 20px;
 }
-header a:link{
-    text-decoration: none;
+a{
     color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+}
+section{
+    padding-left: 30px;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    line-height: 2em;
+    font-family: var(--fonte2);
+    font-size: 25px;
+    font-size: 3vw;
+}
+.normal{
+    background-color: white;
+}
+.imagem{
+    background-image: url(imagens/background001.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    color: white;
+    box-shadow: inset 6px 6px 13px 6px rgba(0, 0, 0, 0.616);
+    text-shadow: 2px 2px 2px  rgb(0, 0, 0);
+}
+.imagem p {
+    background-color: rgba(0, 0, 0, 0.521);
+    padding-left: 5px;
+    width: 40vw;
+}
+#img2{
+    background-image: url(imagens/background002.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: right;
+    color: white;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+    box-shadow: inset 6px 6px 13px 6px rgba(0, 0, 0, 0.616);
 }
