@@ -1,0 +1,34 @@
+@charset "utf-8";
+@font-face {
+    font-family:'passion';
+    src: url(fontes/PassionOne-Bold.ttf);
+}
+@font-face {
+    font-family:'sri';
+    src: url(fontes/Sriracha-Regular.ttf);
+}
+:root{
+    --fonte1:'passion';
+    --fonte2:'sri';
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: black;
+    color: white;
+    padding: 60px;
+    text-align: center;
+}
+h1{
+    font-size: 70px;
+    font-family: var(--fonte1);
+}
+header p{
+    font-size: 20px;
+}
+header a:link{
+    text-decoration: none;
+    color: white;
+}
